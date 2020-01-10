@@ -1,7 +1,7 @@
 Summary:	Create a tree of hardlinks
 Name:		hardlink
 Version:	1.0
-Release:	17%{?dist}
+Release:	19%{?dist}
 Epoch:		1
 Group:		System Environment/Base
 URL:		http://pkgs.fedoraproject.org/gitweb/?p=hardlink.git
@@ -37,6 +37,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/hardlink.1*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1:1.0-19
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.0-18
+- Mass rebuild 2013-12-27
+
 * Wed Apr 10 2013 Jan Zeleny <jzeleny@redhat.com> - 1:1.0-17
 - Mention -f option in the man page
 
